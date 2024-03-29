@@ -1,0 +1,6 @@
+<div class="era-panel-container">
+    <p>{{era.title}}</p>
+    @if (is_selected) {
+        <app-timeline [timeline_events]="era_events"></app-timeline>
+    }
+</div>

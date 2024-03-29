@@ -1,0 +1,10 @@
+<div class="era-container" >
+    @for (era of eras; track era.id) {
+      <div class="era-panel-item" appMouseScroll [era]="era" [index]="$index" [ngClass]="{'selected': selected_index == $index}" (click)="selectEra(era, $index)">
+        <app-era-panel [era]="era" [is_selected]="selected_index == $index"></app-era-panel>
+      </div>
+        
+    } @empty {
+      Empty list of users
+    }
+</div>

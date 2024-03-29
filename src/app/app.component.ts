@@ -1,21 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { TimelineService } from './services/timeline/timeline.service';
+import { EraContainerComponent } from "./components/era-container/era-container.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.css',
+    imports: [RouterOutlet, EraContainerComponent]
 })
 export class AppComponent implements OnInit {
   title = 'TimeVoyage';
-  constructor(private _timelineService: TimelineService) {
 
-    
-  }
+  constructor() { }
   ngOnInit() {
-    console.log(this._timelineService.getData())
   }
 }

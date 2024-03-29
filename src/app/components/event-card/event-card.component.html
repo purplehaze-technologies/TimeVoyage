@@ -1,1 +1,6 @@
-<p>event-card works!</p>
+<div class="event-card text-center" [style.background-image]="'url(' + '../../assets/' + timeline_event?.image + ')'">
+    <div class="event-info">
+        <h6>{{timeline_event?.title}}</h6>
+        <p>{{timeline_event?.date}}</p>
+    </div>
+</div>

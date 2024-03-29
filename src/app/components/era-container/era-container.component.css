@@ -1,0 +1,22 @@
+.era-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.era-panel-item {
+    height: 100vh;
+    flex: 1;
+    border: 1px solid #000;
+    text-align: center;
+    cursor: pointer;
+    transition: flex 0.3s;
+}
+
+.selected {
+    flex: 20;
+    width: 75%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}

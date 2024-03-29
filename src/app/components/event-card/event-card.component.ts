@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { IEvent } from '../../services/timeline/timeline.service';
 
 @Component({
   selector: 'app-event-card',
@@ -8,5 +9,12 @@ import { Component } from '@angular/core';
   styleUrl: './event-card.component.css'
 })
 export class EventCardComponent {
+  @Input() timeline_event: IEvent | undefined
+  
+  constructor() {
+  }
 
+  ngOnChanges() {
+    console.log("timeline_event", this.timeline_event)
+  }
 }

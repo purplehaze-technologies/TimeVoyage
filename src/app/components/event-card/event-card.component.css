@@ -1,0 +1,44 @@
+.event-card {
+    height: 200px;
+    width: 340px;
+    background-color: #fff;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5px;
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    transition: all 0.5s;
+    background-image: linear-gradient(to top, #6a11cbaa 0%, #2575fcaa 100%);
+}
+
+.card-details {
+    position: relative;
+    background-color: #fff;
+
+
+}
+
+.event-info {
+    color: #fff;
+    background: #0a0a0a75;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+
+}
+
+.event-info p {
+    font-weight: 300;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.event-info h6 {
+    font-weight: 300;
+    font-size: 12px;
+    padding: 10px;
+}
