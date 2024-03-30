@@ -7,7 +7,10 @@
     }
     
     @if (is_selected) {
-        <p>{{era.title}}</p>
-        <app-timeline [timeline_events]="era_events"></app-timeline>
+        <p class="timeline-header">{{era.title}}</p>
+        <div>
+            <app-timeline [timeline_events]="era_events"></app-timeline>
+        </div>
+        
     }
 </div>

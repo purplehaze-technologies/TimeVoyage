@@ -49,6 +49,10 @@ export class TimelineService {
   private selectedEraIndexSubject = new BehaviorSubject<number>(-1);
   public selectedEraIndex = this.selectedEraIndexSubject.asObservable()
   
+  public showEventDetailsSubject = new BehaviorSubject<boolean>(false);
+  public showEventDetails = this.showEventDetailsSubject.asObservable()
+
+  
   setSelectedEra(era: IEra, index: number) {
     this.selectedEraSubject.next(era)
     this.selectedEraIndexSubject.next(index)
@@ -88,5 +92,9 @@ export class TimelineService {
   }
   getEraData() {
     return this.eras
+  }
+
+  setShowEventDetails(value: boolean) {
+    this.showEventDetailsSubject.next(value)
   }
 }

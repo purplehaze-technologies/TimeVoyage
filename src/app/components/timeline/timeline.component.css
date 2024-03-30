@@ -40,9 +40,9 @@
     position: relative;
 }
 
-.avatar {
+.event-card-container {
     width: 320px;
-    height: 240px;
+    height: 200px;
     display: block;
     border: 6px solid #bada55;
     position: absolute;
@@ -67,7 +67,7 @@ li.down .content:before {
     border-left: 4px solid #f98262;
 }
 
-li.down .avatar {
+li.down .event-card-container {
     top: 80px;
 }
 
@@ -83,7 +83,7 @@ li.up .date {
     margin-top: 106px;
 }
 
-li.up .avatar {
+li.up .event-card-container {
     background: #fffff0;
     margin-top: -30px;
 }

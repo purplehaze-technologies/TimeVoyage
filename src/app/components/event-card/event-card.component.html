@@ -1,6 +1,10 @@
-<div class="event-card text-center" [style.background-image]="'url(' + '../../assets/' + timeline_event?.image + ')'">
+<div class="event-card text-center" [style.background-image]="'url(' +  timeline_event.image + ')'" (click)="openEventDetails()">
     <div class="event-info">
-        <h6>{{timeline_event?.title}}</h6>
-        <p>{{timeline_event?.date}}</p>
+        <h3>{{timeline_event.title}}</h3>
     </div>
 </div>
+
+@if (show_event_details) {
+    <app-event-details-popup [event]="timeline_event" (close)="closeEventDetails()"></app-event-details-popup>
+    
+}

@@ -25,9 +25,13 @@ export class EraPanelComponent {
     if (changes['selected_index']) {
       this.findTitlePosition(this.selected_index)
     }
+    if (changes['is_selected'] && this.is_selected) {
+      this.getEraEvents()
+    }
   }
   getEraEvents() {
     this.era_events = this._timelineService.getEraEvents(this.era.id)
+
   }
 
   findTitlePosition(selected_index: number) {

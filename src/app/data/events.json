@@ -4,7 +4,7 @@
       "title": "The Renaissance Begins",
       "date": "14th Century",
       "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 1
     },
@@ -13,7 +13,7 @@
       "title": "Declaration of Independence",
       "date": "1776",
       "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 1
     },
@@ -22,7 +22,7 @@
       "title": "Fall of the Berlin Wall",
       "date": "1989",
       "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 1
     },
@@ -31,7 +31,7 @@
       "title": "The Renaissance Begins",
       "date": "14th Century",
       "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 1
     },
@@ -40,7 +40,7 @@
       "title": "Declaration of Independence",
       "date": "1776",
       "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 2
     },
@@ -49,7 +49,7 @@
       "title": "Fall of the Berlin Wall",
       "date": "1989",
       "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 3
     },
@@ -58,7 +58,7 @@
       "title": "The Renaissance Begins",
       "date": "14th Century",
       "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 4
     },
@@ -67,7 +67,7 @@
       "title": "Declaration of Independence",
       "date": "1776",
       "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 5
     },
@@ -76,7 +76,7 @@
       "title": "Fall of the Berlin Wall",
       "date": "1989",
       "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 6
     },
@@ -85,7 +85,7 @@
       "title": "The Renaissance Begins",
       "date": "14th Century",
       "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 7
     },
@@ -94,7 +94,7 @@
       "title": "Declaration of Independence",
       "date": "1776",
       "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 2
     },
@@ -103,7 +103,7 @@
       "title": "Fall of the Berlin Wall",
       "date": "1989",
       "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 3
     },
@@ -112,7 +112,7 @@
       "title": "The Renaissance Begins",
       "date": "14th Century",
       "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 4
     },
@@ -121,7 +121,7 @@
       "title": "Declaration of Independence",
       "date": "1776",
       "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 5
     },
@@ -130,7 +130,7 @@
       "title": "Fall of the Berlin Wall",
       "date": "1989",
       "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 2
     },
@@ -139,7 +139,7 @@
       "title": "The Renaissance Begins",
       "date": "14th Century",
       "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 3
     },
@@ -148,7 +148,7 @@
       "title": "Declaration of Independence",
       "date": "1776",
       "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 6
     },
@@ -157,7 +157,7 @@
       "title": "Fall of the Berlin Wall",
       "date": "1989",
       "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 7
     },
@@ -166,7 +166,7 @@
       "title": "The Renaissance Begins",
       "date": "14th Century",
       "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 7
     },
@@ -175,7 +175,7 @@
       "title": "Declaration of Independence",
       "date": "1776",
       "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 7
     },
@@ -184,7 +184,7 @@
       "title": "Fall of the Berlin Wall",
       "date": "1989",
       "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "sample_card_image.jpg",
+      "image": "/assets/sample_card_image.jpg",
       "video": "https://www.youtube.com/watch?v=1",
       "era_id": 7
     }

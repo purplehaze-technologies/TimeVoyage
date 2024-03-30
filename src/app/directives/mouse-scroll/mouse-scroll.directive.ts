@@ -11,13 +11,19 @@ export class MouseScrollDirective {
   @Input() index: number = -1;
   @HostListener('wheel', ['$event']) onMouseWheel(event: WheelEvent) {
     
-    event.preventDefault();
+    
     const scrollableElement = this.el.nativeElement;
+    const _is_modal_open = this._timelineService.showEventDetailsSubject.value
+    // debugger
+    if (_is_modal_open) {
+      return
+    }
+    event.preventDefault();
     if (!scrollableElement.classList.contains('selected')) {
       this._timelineService.setSelectedEra(this.era, this.index)
       return
     } 
-    const scrollStep = 50; // Adjust multiplier for scroll speed    
+    const scrollStep = 20; // Adjust multiplier for scroll speed    
 
 
     // Check if scrolling left and if there's no more space to scroll left

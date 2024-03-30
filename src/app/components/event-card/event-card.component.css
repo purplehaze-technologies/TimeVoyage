@@ -1,12 +1,11 @@
 .event-card {
     height: 200px;
-    width: 340px;
+    width: 320px;
     background-color: #fff;
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    border-radius: 5px;
     background-position: 50% !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -26,19 +25,15 @@
     background: #0a0a0a75;
     height: 100%;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: flex-start;
+    justify-content: flex-end;
 
 }
 
-.event-info p {
-    font-weight: 300;
-    font-size: 12px;
-    padding: 10px;
-}
 
-.event-info h6 {
-    font-weight: 300;
-    font-size: 12px;
+.event-info h3 {
     padding: 10px;
+    text-align: center;
+    width: 100%;
 }
