@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, SimpleChanges } from '@angular/core';
 import { EraPanelComponent } from "../era-panel/era-panel.component";
 import { IEra, TimelineService } from '../../services/timeline/timeline.service';
 import { CommonModule } from '@angular/common';
@@ -22,15 +22,16 @@ export class EraContainerComponent {
   ngOnInit() {
     const s1 = this._timelineService.selectedEra.subscribe(era => {
       this.selected_era = era
-      console.log("selected_era", this.selected_era)
     })
     this.subscriptions.push(s1)
     const s2 = this._timelineService.selectedEraIndex.subscribe(index => {
       this.selected_index = index
-      // console.log("selected_index", this.selected_index)
     })
 
     this.subscriptions.push(s2)
+  }
+  ngOnChanges(changes: SimpleChanges) {
+
   }
 
   selectEra(era: IEra, index: number) {

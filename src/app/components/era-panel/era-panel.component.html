@@ -1,6 +1,13 @@
-<div class="era-panel-container">
-    <p>{{era.title}}</p>
+<div class="era-panel-container" >
+    @if (!is_selected) {
+        <div class="era-panel-item-container" [style.background-image]="'url(/assets/era/' + era.image + ')'">
+            <div class="title-card" [ngClass]="title_rotate_classname"><p>{{era.title}}</p></div>
+        </div>
+        
+    }
+    
     @if (is_selected) {
+        <p>{{era.title}}</p>
         <app-timeline [timeline_events]="era_events"></app-timeline>
     }
 </div>

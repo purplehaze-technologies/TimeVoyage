@@ -1,51 +1,42 @@
 [
     {
         "id": 1,
-        "title": "Stone Age",
+        "title": "Prehistoric Era",
         "period_from": "3.3 million",
-        "period_to": "5,000 years ago.",
-        "color_scheme": "#8B4513"
+        "period_to": "600 BC",
+        "color_scheme": "#8B4513",
+        "image": "1.jpg"
     },
     {
         "id": 2,
-        "title": "Bronze Age",
-        "period_from": "5,000",
-        "period_to": "1,400 years ago.",
-        "color_scheme": "#B87333"
+        "title": "Classical Era",
+        "period_from": "600 BC",
+        "period_to": "AD 476",
+        "color_scheme": "#B87333",
+        "image": "2.jpg"
     },
     {
         "id": 3,
-        "title": "Iron Age",
-        "period_from": "1,200 BC",
-        "period_to": "500 BC",
-        "color_scheme": "#A52A2A"
+        "title": "The Middle Ages",
+        "period_from": "AD 476",
+        "period_to": "AD 1450",
+        "color_scheme": "#A52A2A",
+        "image": "3.jpg"
     },
     {
         "id": 4,
-        "title": "Classical Era",
-        "period_from": "500 BC",
-        "period_to": "500 AD",
-        "color_scheme": "#00008B"
+        "title": "Early Modern Era",
+        "period_from": "AD 1450",
+        "period_to": "AD 1750",
+        "color_scheme": "#008000",
+        "image": "4.jpg"
     },
     {
         "id": 5,
-        "title": "Medieval Era",
-        "period_from": "500 AD",
-        "period_to": "1500 AD",
-        "color_scheme": "#008000"
-    },
-    {
-        "id": 6,
-        "title": "Early Modern Era",
-        "period_from": "1500 AD",
-        "period_to": "1800 AD",
-        "color_scheme": "#FFA500"
-    },
-    {
-        "id": 7,
         "title": "Modern Era",
-        "period_from": "1800 AD",
+        "period_from": "AD 1750",
         "period_to": "Present",
-        "color_scheme": "#6C757D"
+        "color_scheme": "#6C757D",
+        "image": "5.jpg"
     }
 ]

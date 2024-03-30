@@ -22,15 +22,15 @@ export class MouseScrollDirective {
 
     // Check if scrolling left and if there's no more space to scroll left
     if (event.deltaY < 0 && scrollableElement.scrollLeft === 0) {
-      // this._timelineService.selectPrevEra()
-      this._timelineService.resetEra()
+      this._timelineService.selectPrevEra()
+      // this._timelineService.resetEra()
       return; // No more space to scroll left
     }
 
     // Check if scrolling right and if there's no more space to scroll right
     if (event.deltaY > 0 && scrollableElement.scrollLeft >= (scrollableElement.scrollWidth - scrollableElement.clientWidth)) {
-      // this._timelineService.selectNextEra()
-      this._timelineService.resetEra()
+      this._timelineService.selectNextEra()
+      // this._timelineService.resetEra()
       return; // No more space to scroll right
     }
 

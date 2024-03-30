@@ -27,7 +27,7 @@ export interface IEra {
   period_from: string
   period_to: string
   color_scheme: string
-
+  image?: string
 }
 
 
@@ -57,7 +57,7 @@ export class TimelineService {
   selectNextEra() {
     const selected_era_index = this.selectedEraIndexSubject.value
     if (selected_era_index >= this.eras.length - 1) {
-      // do nothing
+      this.resetEra()
     } else {
       const next_era_index = selected_era_index + 1
       const next_era = this.eras[next_era_index]
@@ -70,7 +70,7 @@ export class TimelineService {
   selectPrevEra() {
     const selected_era_index = this.selectedEraIndexSubject.value
     if (selected_era_index <= 0) {
-      // do nothing
+      this.resetEra()
     } else {
       const next_era_index = selected_era_index - 1
       const next_era = this.eras[next_era_index]
