@@ -22,6 +22,8 @@
     overflow: auto;
 }
 
+
+
 .close {
     color: #aaaaaa;
     float: right;
@@ -36,8 +38,22 @@
     cursor: pointer;
 }
 
-.modal-content h1 {}
+.modal-content h1 {
+    font-size: 1.6em;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.modal-content p {
+    font-size: 1.1em;
+    text-align: left;
+    padding: 10px 0px;
+}
 
 .modal-content img {
+    width: 100%;
+}
+
+.modal-content iframe {
     width: 100%;
 }

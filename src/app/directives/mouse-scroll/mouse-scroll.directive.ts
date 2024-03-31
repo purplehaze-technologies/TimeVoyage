@@ -23,7 +23,7 @@ export class MouseScrollDirective {
       this._timelineService.setSelectedEra(this.era, this.index)
       return
     } 
-    const scrollStep = 20; // Adjust multiplier for scroll speed    
+    const scrollStep = 40; // Adjust multiplier for scroll speed    
 
 
     // Check if scrolling left and if there's no more space to scroll left

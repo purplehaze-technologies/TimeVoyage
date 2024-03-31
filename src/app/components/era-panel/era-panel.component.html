@@ -7,7 +7,10 @@
     }
     
     @if (is_selected) {
-        <p class="timeline-header">{{era.title}}</p>
+        <div class="timeline-header">
+            <h3 class="">{{era.title}} ( {{era.period_from}} to {{era.period_to}})</h3>
+        </div>
+        
         <div>
             <app-timeline [timeline_events]="era_events"></app-timeline>
         </div>

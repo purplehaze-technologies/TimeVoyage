@@ -18,10 +18,14 @@
 .timeline-header {
     position: fixed;
     width: 100%;
-    text-align: left;
     padding: 20px;
     top: 50px;
     font-weight: 600;
+}
+
+.timeline-header h3 {
+    text-align: left;
+    font-size: 2em;
 }
 
 .title-card {
