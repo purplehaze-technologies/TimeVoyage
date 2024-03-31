@@ -13,9 +13,6 @@ export class TimelineComponent {
   @Input() timeline_events: IEvent[] = [];
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes['timeline_events']) {
-      console.log('timeline events : ', this.timeline_events)
-    }
   }
 
  

@@ -53,7 +53,6 @@ export class EraPanelComponent {
   toggleFilter(filter: any, index: number) {
     this.filters[index].selected = !filter.selected
     const selected_filters = this.filters.filter((filter: any) => filter.selected).map((filter: any) => filter.name);
-    console.log("selected_filters", selected_filters)
     if (selected_filters.length > 0) {
       this.era_events = this._timelineService.getEraEventsWithFilter(this.era.id, selected_filters)
     } else {
