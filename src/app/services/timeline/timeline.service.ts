@@ -20,6 +20,7 @@ export interface IEvent {
   image: string
   video: string
   era_id: number
+  category: string[]
 }
 export interface IEra {
   id: number,

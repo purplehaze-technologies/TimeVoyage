@@ -1,191 +1,572 @@
 [
-    {
-      "id": 1,
-      "title": "The Renaissance Begins",
-      "date": "14th Century",
-      "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 1
-    },
-    {
-      "id": 2,
-      "title": "Declaration of Independence",
-      "date": "1776",
-      "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 1
-    },
-    {
-      "id": 3,
-      "title": "Fall of the Berlin Wall",
-      "date": "1989",
-      "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 1
-    },
-    {
-      "id": 1,
-      "title": "The Renaissance Begins",
-      "date": "14th Century",
-      "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 1
-    },
-    {
-      "id": 2,
-      "title": "Declaration of Independence",
-      "date": "1776",
-      "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 2
-    },
-    {
-      "id": 3,
-      "title": "Fall of the Berlin Wall",
-      "date": "1989",
-      "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 3
-    },
-    {
-      "id": 1,
-      "title": "The Renaissance Begins",
-      "date": "14th Century",
-      "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 4
-    },
-    {
-      "id": 2,
-      "title": "Declaration of Independence",
-      "date": "1776",
-      "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 5
-    },
-    {
-      "id": 3,
-      "title": "Fall of the Berlin Wall",
-      "date": "1989",
-      "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 6
-    },
-    {
-      "id": 1,
-      "title": "The Renaissance Begins",
-      "date": "14th Century",
-      "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 7
-    },
-    {
-      "id": 2,
-      "title": "Declaration of Independence",
-      "date": "1776",
-      "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 2
-    },
-    {
-      "id": 3,
-      "title": "Fall of the Berlin Wall",
-      "date": "1989",
-      "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 3
-    },
-    {
-      "id": 1,
-      "title": "The Renaissance Begins",
-      "date": "14th Century",
-      "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 4
-    },
-    {
-      "id": 2,
-      "title": "Declaration of Independence",
-      "date": "1776",
-      "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 5
-    },
-    {
-      "id": 3,
-      "title": "Fall of the Berlin Wall",
-      "date": "1989",
-      "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 2
-    },
-    {
-      "id": 1,
-      "title": "The Renaissance Begins",
-      "date": "14th Century",
-      "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 3
-    },
-    {
-      "id": 2,
-      "title": "Declaration of Independence",
-      "date": "1776",
-      "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 6
-    },
-    {
-      "id": 3,
-      "title": "Fall of the Berlin Wall",
-      "date": "1989",
-      "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 7
-    },
-    {
-      "id": 1,
-      "title": "The Renaissance Begins",
-      "date": "14th Century",
-      "description": "The Renaissance period marks the revival of art, culture, and learning in Europe, leading to significant advancements in science, art, and philosophy.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 7
-    },
-    {
-      "id": 2,
-      "title": "Declaration of Independence",
-      "date": "1776",
-      "description": "The Declaration of Independence was adopted by the Continental Congress, declaring the 13 American colonies independent from British rule and laying the foundation for the United States.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 7
-    },
-    {
-      "id": 3,
-      "title": "Fall of the Berlin Wall",
-      "date": "1989",
-      "description": "The fall of the Berlin Wall symbolized the end of the Cold War and the reunification of East and West Germany, marking a significant moment in modern history.",
-      "image": "/assets/sample_card_image.jpg",
-      "video": "https://www.youtube.com/watch?v=1",
-      "era_id": 7
-    }
+  {
+    "id": 1,
+    "title": "First HominidTool Use",
+    "date": "2.5 Million Years Ago (B.C.)",
+    "description": "Early hominins, such as Australopithecus or Homo habilis, begin using stone tools",
+    "image": "1.webp", 
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Innovations"]
+  },
+  {
+    "id": 2,
+    "title": "Homo Erectus Migration Out of Africa",
+    "date": "1.8 Million Years Ago (B.C.)",
+    "description": "Homo erectus, an early human ancestor, migrates out of Africa and into Asia",
+    "image": "2.webp",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Exploration"]
+  },
+  {
+    "id": 3,
+    "title": "Control of Fire by Early Humans",
+    "date": "1 Million Years Ago (B.C.)",
+    "description":   "Early humans begin to control fire, providing warmth, protection from predators, and a way to cook food",
+    "image": "3.jpg",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Innovations"]
+  },
+  {
+    "id": 4,
+    "title": "Neanderthal Emergence",
+    "date": "400,000 Years Ago (B.C.)",
+    "description": "Neanderthals, a close relative of Homo sapiens, emerge in Europe and Asia",
+    "image": "4.jpg",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Exploration"]
+  },
+  {
+    "id": 5,
+    "title": "Modern Humans Evolve in Africa",
+    "date": "200,000 Years Ago (B.C.)",
+    "description": "Homo sapiens, modern humans, evolve in Africa",
+    "image": "5.jpg",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Exploration"]
+  },
+  {
+    "id": 6,
+    "title": "Early Cave Art",
+    "date": "40,000 Years Ago (B.C.)",
+    "description": "Early humans create cave paintings and engravings, depicting animals and possibly rituals",
+    "image": "6.jpg",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Innovations"]
+  },
+  {
+    "id": 7,
+    "title": "Agricultural Revolution",
+    "date": "12,000 Years Ago (B.C.)",
+    "description": "The transition from hunting and gathering to farming begins in the Fertile Crescent region",
+    "image": "7.jpg",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Innovations"]  
+  },
+  {
+    "id": 8,
+    "title": "Rise of Permanent Settlements",
+    "date": "8,000 Years Ago (B.C.)",
+    "description": "With the development of agriculture, humans begin to settle in permanent villages and towns",
+    "era_id": 1,
+    "image": "9.jpg",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "category": ["Exploration"]  
+  },
+  {
+    "id": 9,
+    "title": "Invention of Bronze",
+    "date": "4,500 Years Ago (B.C.)",
+    "description": "The discovery of how to combine copper and tin to create a stronger metal, bronze, revolutionizes toolmaking and warfare",
+    "image": "9.jpg",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Innovations"]
+  },
+  {
+    "id": 10,
+    "title": "Invention of the Wheel",
+    "date": "3,500 Years Ago (B.C.)",
+    "description": "The invention of the wheel allows for easier transportation of goods and people",
+    "image": "10.jpg",
+    "video": "https://www.youtube.com/watch?v=plup3xkpVk8",
+    "era_id": 1,
+    "category": ["Innovations"]
+  },
+  {
+    "id": 11,
+    "title": "Rise of Athenian Democracy",
+    "date": "5th Century B.C.",
+    "description": "Athens develops a system of government where citizens participate directly in decision-making",
+    "image": "11.jpg", 
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["Political"]
+  },
+  {
+    "id": 12,
+    "title": "Persian Wars",
+    "date": "492 B.C. - 449 B.C.",
+    "description": "Series of conflicts between the Persian Empire and Greek city-states, ending in a Greek victory and the rise of Athenian power",
+    "image": "12.webp", 
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["War"]
+  },
+  {
+    "id": 13,
+    "title": "Golden Age of Athens",
+    "date": "5th Century B.C.",
+    "description": "A period of flourishing arts, philosophy, and science in Athens under Pericles' leadership",
+    "image": "13.jpg",
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["Economic", "Political", "Diplomacy"]
+  },
+  {
+    "id": 14,
+    "title": "Peloponnesian War",
+    "date": "431 B.C. - 404 B.C.",
+    "description": "Devastating war between Athens and Sparta, weakening both city-states and marking the decline of Greece",
+    "image": "14.webp",
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["War"]
+  },
+  {
+    "id": 15,
+    "title": "Rise of Alexander the Great",
+    "date": "4th Century B.C.",
+    "description": "Alexander the Great conquers a vast empire, uniting Greek and Persian cultures",
+    "image": "15.jpg",  
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["Political", "Diplomacy", "War"]
+  },
+  {
+    "id": 16,
+    "title": "Punic Wars",
+    "date": "264 B.C. - 146 B.C.",
+    "description": "Series of wars between Rome and Carthage for dominance in the Mediterranean",
+    "image": "16.jpg",
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["War"]
+  },
+  {
+    "id": 17,
+    "title": "Rise of the Roman Republic",
+    "date": "509 B.C. - 27 B.C.",
+    "description": "Rome develops a powerful republic with a senate and elected officials",
+    "image": "17.jpg",
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["Political", "Diplomacy", "Economic"]
+  },
+  {
+    "id": 18,
+    "title": "Pax Romana",
+    "date": "27 B.C. - 180 A.D.",
+    "description": "A period of relative peace and prosperity under the Roman Empire",
+    "image": "18.webp",
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["Political", "Diplomacy", "Economic"]
+  },
+  {
+    "id": 19,
+    "title": "Spread of Christianity",
+    "date": "1st Century A.D. onwards",
+    "description": "Christianity emerges in Judea and spreads throughout the Roman Empire",
+    "image": "19.webp",  
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["Religious", "Political"]
+  },
+  {
+    "id": 20,
+    "title": "Fall of the Western Roman Empire",
+    "date": "476 A.D.",
+    "description": "The Western Roman Empire collapses, marking the end of the Classical Era in Western",
+    "image": "20.jpg",  
+    "video": "https://www.youtube.com/watch?v=-8xMbuphIM4", 
+    "era_id": 2,
+    "category": ["War", "Political", "Economic"]
+  },
+  {
+    "id": 22,
+    "title": "Rise of Islam",
+    "date": "7th Century A.D.",
+    "description": "Emergence of Islam in the Arabian Peninsula, uniting Arab tribes and forming a powerful caliphate",
+    "image": "22.jpeg", 
+    "video": "https://www.youtube.com/watch?v=hR3IhT-XvsE",
+    "era_id": 3,
+    "category": ["Religious", "Political"]
+  },
+  {
+    "id": 23,
+    "title": "Charlemagne's Reign",
+    "date": "8th - 9th Century A.D.",
+    "description": "Charlemagne unites much of Western Europe and promotes Carolingian Renaissance",
+    "image": "23.jpg", 
+    "video": "https://www.youtube.com/watch?v=hR3IhT-XvsE", 
+    "era_id": 3,
+    "category": ["Religious", "Political"]
+  },
+  {
+    "id": 25,
+    "title": "Great Schism",
+    "date": "1054 A.D.",
+    "description": "Split between the Eastern Orthodox Church and the Catholic Church",
+    "image": "25.jpg", 
+    "video": "https://www.youtube.com/watch?v=hR3IhT-XvsE", 
+    "era_id": 3,
+    "category": ["Religious", "Political"]
+  },
+  {
+    "id": 26,
+    "title": "The Crusades",
+    "date": "1095 - 1291 A.D.",
+    "description": "Series of religious wars between Christians and Muslims for control of the Holy Land",
+    "image": "26.jpg",
+    "video": "https://www.youtube.com/watch?v=hR3IhT-XvsE",
+    "era_id": 3,
+    "category": ["Religious", "Political", "War"]
+  },
+  {
+    "id": 27,
+    "title": "Magna Carta",
+    "date": "1215 A.D.",
+    "description": "English document limiting the King's power and granting rights to nobles",
+    "image": "27.jpg",  
+    "video": "https://www.youtube.com/watch?v=hR3IhT-XvsE",  
+    "era_id": 3,
+    "category": ["Religious", "Political", "War", "Diplomacy", "Economic"]
+  },
+  {
+    "id": 28,
+    "title": "Black Death",
+    "date": "1346 - 1353 A.D.",
+    "description": "Devastating plague that sweeps across Europe, killing millions",
+    "image": "28.jpg", 
+    "video": "https://www.youtube.com/watch?v=hR3IhT-XvsE",
+    "era_id": 3,
+    "category": ["Health", "Political", "Economic", "Environmental"]
+  },
+  {
+    "id": 29,
+    "title": "Hundred Years' War",
+    "date": "1337 - 1453 A.D.",
+    "description": "Series of conflicts between England and France, heavily impacting both nations",
+    "image": "29.png", 
+    "video": "https://www.youtube.com/watch?v=hR3IhT-XvsE",
+    "era_id": 3,
+    "category": ["War", "Political", "Diplomacy", "Economic"]
+  },
+  {
+    "id": 31,
+    "title": "Johannes Gutenberg invents the Printing Press",
+    "date": "1440 A.D.",  
+    "description": "This revolutionary invention allowed for mass production of books and knowledge dissemination, impacting literacy and education",
+    "image": "31.webp",  
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8",  
+    "era_id": 4,
+    "category": ["Innovations"]
+  },
+  {
+    "id": 32,
+    "title": "Fall of Constantinople",
+    "date": "1453 A.D.",
+    "description": "The Ottoman Turks capture Constantinople, marking the end of the Byzantine Empire and influencing the flow of knowledge and scholars westward to Europe",
+    "image": "32.webp",  
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8",  
+    "era_id": 4,
+    "category": ["War", "Political", "Diplomacy"]
+  },
+  {
+    "id": 33,
+    "title": "Protestant Reformation",
+    "date": "1517 A.D. onwards",
+    "description": "Martin Luther challenges the Catholic Church's authority, leading to the creation of Protestant denominations and religious wars in Europe",
+    "image": "33.jpg",  
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8",  
+    "era_id": 4,
+    "category": ["Religious", "Political", "Diplomacy"]
+  },
+  {
+    "id": 34,
+    "title": "Age of Exploration",
+    "date": "15th - 17th Century A.D.",
+    "description": "European nations explore and colonize new territories overseas, including the Americas, Africa, and Asia",
+    "image": "34.jpg", 
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8",  
+    "era_id": 4,
+    "category": ["War", "Political", "Diplomacy", "Economic"]
+  },
+  {
+    "id": 35,
+    "title": "Scientific Revolution",
+    "date": "16th - 18th Century A.D.",
+    "description":   "A shift in scientific thought, with emphasis on observation, experimentation, and questioning established theories",
+    "image": "35.png", 
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8", 
+    "era_id": 4,
+    "category": ["Innovations"]
+  },
+  {
+    "id": 36,
+    "title": "English Civil War",
+    "date": "1642 - 1651 A.D.",
+    "description": "Conflict between the English Parliament and the Royalist supporters of King Charles I, resulting in a temporary overthrow of the monarchy",
+    "image": "36.webp",
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8",
+    "era_id": 4,
+    "category": ["War", "Political"]
+  },
+  {
+    "id": 37,
+    "title": "The Enlightenment",
+    "date": "1650 - 1800 A.D.",
+    "description": "An intellectual movement emphasizing reason, logic, and scientific inquiry over tradition and religious authority",
+    "image": "37.jpg",  
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8",  
+    "era_id": 4,
+    "category": ["Innovations"]
+  },
+  {
+    "id": 38,
+    "title": "Absolutism",
+    "date": "17th - 18th Century A.D.",
+    "description": "Monarchs in Europe consolidate power, claiming absolute authority over their kingdoms",
+    "image": "38.jpg", 
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8", 
+    "era_id": 4,
+    "category": ["Political", "Diplomacy", "Economic"]
+  },
+  {
+    "id": 39,
+    "title": "Age of Exploration and Columbian Exchange",
+    "date": "1492 onwards",  
+    "description": "The exchange of plants, animals, diseases",
+    "image": "39.webp",  
+    "video": "https://www.youtube.com/watch?v=6dSDofa71o8",  
+    "era_id": 4,
+    "category": ["Exploration", "Environmental", "Political", "Economic", "Health", "Innovations"]
+  },
+  {
+    "id": 40,
+    "title": "Industrial Revolution",
+    "date": "Late 18th to early 19th century",
+    "description": "Massive economic, technological, and social changes resulting from the shift to industrialization, including the mechanization of production, urbanization, and the rise of capitalism.",
+    "image": "40.webp",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Innovations", "Economic", "Revolutions"]
+  },
+  {
+    "id": 41,
+    "title": "American Revolution",
+    "date": "1775-1783",
+    "description": "Thirteen American colonies declared independence from Britain, leading to the formation of the United States of America.",
+    "image": "41.png",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "War", "Revolutions"]
+  },
+  {
+    "id": 42,
+    "title": "French Revolution",
+    "date": "1789-1799",
+    "description": "Overthrow of the French monarchy, establishment of a republic, and radical social and political upheaval.",
+    "image": "42.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "War", "Revolutions"]
+  },
+  {
+    "id": 43,
+    "title": "Napoleonic Wars",
+    "date": "1803-1815",
+    "description": "Series of conflicts fought between Napoleon Bonaparte's French Empire and various European powers.",
+    "image": "43.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "War"]
+  },
+  {
+    "id": 44,
+    "title": "Abolition of Slavery",
+    "date": "19th century",
+    "description": "The movement to end the transatlantic slave trade and the institution of slavery itself gained momentum throughout the 19th century, culminating in various countries abolishing slavery.",
+    "image": "44.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Revolutions"]
+  },
+  {
+    "id": 45,
+    "title": "American Civil War",
+    "date": "1861-1865",
+    "description": "Conflict between the Northern states (Union) and the Southern states (Confederacy) over issues primarily involving slavery and states' rights.",
+    "image": "45.png",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "War", "Revolutions"]
+  },
+  {
+    "id": 46,
+    "title": "World War I",
+    "date": "1914-1918",
+    "description": "Global conflict involving most of the world's great powers, fought between the Allies and the Central Powers.",
+    "image": "46.webp",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "War"]
+  },
+  {
+    "id": 47,
+    "title": "Russian Revolution",
+    "date": "1917",
+    "description": "Overthrow of the Russian Tsarist autocracy, leading to the rise of the Soviet Union.",
+    "image": "47.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "Revolutions"]
+  },
+  {
+    "id": 48,
+    "title": "Great Depression",
+    "date": "1929-1939",
+    "description": "Severe worldwide economic depression that originated in the United States, leading to widespread unemployment, poverty, and political instability.",
+    "image": "48.webp",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic"]
+  },
+  {
+    "id": 49,
+    "title": "World War II",
+    "date": "1939-1945",
+    "description": "Global conflict involving many of the world's nations, fought between the Allies and the Axis powers.",
+    "image": "49.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "War"]
+  },
+  {
+    "id": 50,
+    "title": "Cold War",
+    "date": "1947-1991",
+    "description": "Geopolitical tension between the Soviet Union and its allies and the United States and its allies, characterized by proxy wars, espionage, and ideological competition.",
+    "image": "50.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "War"]
+  },
+  {
+    "id": 51,
+    "title": "Decolonization",
+    "date": "20th century",
+    "description": "The process by which colonies gained independence from colonial powers, reshaping global politics and contributing to the rise of new nations.",
+    "image": "51.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic"]
+  },
+  {
+    "id": 52,
+    "title": "Civil Rights Movement",
+    "date": "1950s-1960s",
+    "description": "Social movements in the United States aimed at ending racial segregation and discrimination against African Americans.",
+    "image": "52.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "Revolutions"]
+  },
+  {
+    "id": 53,
+    "title": "Space Race",
+    "date": "1957-1975",
+    "description": "Competition between the United States and the Soviet Union to achieve significant milestones in space exploration, culminating in the Apollo 11 moon landing.",
+    "image": "52.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "Innovations"]
+  },
+  {
+    "id": 54,
+    "title": "Vietnam War",
+    "date": "1955-1975",
+    "description": "Conflict between communist North Vietnam and South Vietnam, supported by the United States and other anti-communist allies.",
+    "image": "54.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "War", "Revolutions"]
+  },
+  {
+    "id": 56,
+    "title": "Fall of the Berlin Wall",
+    "date": "1989",
+    "description": "Symbolic event marking the end of the Cold War and the beginning of German reunification.",
+    "image": "56.webp",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Revolutions"]
+  },
+  {
+    "id": 57,
+    "title": "September 11 Attacks",
+    "date": "2001",
+    "description": "Series of coordinated terrorist attacks by the extremist group al-Qaeda on the United States, leading to significant global consequences, including the War on Terror.",
+    "image": "57.webp",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "War"]
+  },
+  {
+    "id": 58,
+    "title": "Arab Spring",
+    "date": "2010-2012",
+    "description": "Series of anti-government protests, uprisings, and armed rebellions that spread across much of the Arab world, leading to political changes and conflicts.",
+    "image": "58.webp",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Diplomacy", "Economic", "Revolutions"]
+  },
+  {
+    "id": 59,
+    "title": "COVID-19 Pandemic",
+    "date": "2019-present",
+    "description": "Global pandemic caused by the novel coronavirus SARS-CoV-2, resulting in significant health, economic, and social impacts worldwide.",
+    "image": "59.jpg",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Health", "Economic"]
+  },
+  {
+    "id": 62,
+    "title": "Black Lives Matter Movement",
+    "date": "2013-present",
+    "description": "Social justice movement advocating for the rights of Black people and against systemic racism and police brutality.",
+    "image": "62.webp",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Revolutions"]
+  },
+  {
+    "id": 63,
+    "title": "Me Too Movement",
+    "date": "2017-present",
+    "description": "Global movement against sexual harassment and assault, particularly in the workplace, sparked by allegations against prominent figures in the entertainment industry.",
+    "image": "63.webp",
+    "video": "https://www.youtube.com/watch?v=LbgiS4y4L78",
+    "era_id": 5,
+    "category": ["Political", "Revolutions"]
+  }
   ]
