@@ -16,7 +16,7 @@ export class EventCardComponent {
   }
 
   ngOnChanges() {
-    console.log("timeline_event", this.timeline_event)
+    
   }
 
   openEventDetails(): void {

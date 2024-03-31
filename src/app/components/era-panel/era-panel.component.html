@@ -9,6 +9,13 @@
     @if (is_selected) {
         <div class="timeline-header">
             <h3 class="">{{era.title}} ( {{era.period_from}} to {{era.period_to}})</h3>
+            <div class="tileline-filter-container">
+                @for (filter of filters; track $index) {
+                    <span (click)="toggleFilter(filter, $index)"  [ngClass]="{'selected': filter.selected}">{{filter.name}}</span>
+                      
+                  }
+                
+            </div>
         </div>
         
         <div>

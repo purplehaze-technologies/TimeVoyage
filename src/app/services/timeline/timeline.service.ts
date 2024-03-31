@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import eventsData from '../../data/events.json'
 import eraData from '../../data/era.json'
+import filterData from '../../data/filters.json'
 import { BehaviorSubject } from 'rxjs';
 
 export enum ETimelineMode {
@@ -43,7 +44,7 @@ export class TimelineService {
   constructor() { }
   private events: IEvent[] = eventsData
   private eras: IEra[] = eraData
-   
+  private filters: string[] = filterData
   private selectedEraSubject = new BehaviorSubject<IEra | undefined>(undefined);
   public selectedEra = this.selectedEraSubject.asObservable()
 
@@ -91,8 +92,14 @@ export class TimelineService {
   getEraEvents(era_id: number) {
     return this.events.filter(ev => ev.era_id == era_id)
   }
+  getEraEventsWithFilter(era_id: number, filter_array: string[]) {
+    return this.events.filter(event => event.era_id === era_id && event.category.some(category => filter_array.includes(category)));
+  }
   getEraData() {
     return this.eras
+  }
+  getFilters() {
+    return this.filters
   }
 
   setShowEventDetails(value: boolean) {

@@ -2,7 +2,6 @@ import { Component, Input, SimpleChanges } from '@angular/core';
 import { TimelineComponent } from "../timeline/timeline.component";
 import { IEra, IEvent, TimelineService } from '../../services/timeline/timeline.service';
 import { CommonModule } from '@angular/common';
-import { Subject, takeUntil } from 'rxjs';
 
 @Component({
     selector: 'app-era-panel',
@@ -18,8 +17,9 @@ export class EraPanelComponent {
   @Input() selected_index!: number
   era_events: IEvent[] = []
   title_rotate_classname: string = ""
-
+  filters: any = []
   constructor(private _timelineService: TimelineService) {
+    this.filters = this._timelineService.getFilters().map(filter => ({ name: filter, selected: false }))
   }
   ngOnChanges(changes: SimpleChanges) {
     if (changes['selected_index']) {
@@ -31,7 +31,6 @@ export class EraPanelComponent {
   }
   getEraEvents() {
     this.era_events = this._timelineService.getEraEvents(this.era.id)
-
   }
 
   findTitlePosition(selected_index: number) {
@@ -51,6 +50,16 @@ export class EraPanelComponent {
     }
   }
 
+  toggleFilter(filter: any, index: number) {
+    this.filters[index].selected = !filter.selected
+    const selected_filters = this.filters.filter((filter: any) => filter.selected).map((filter: any) => filter.name);
+    console.log("selected_filters", selected_filters)
+    if (selected_filters.length > 0) {
+      this.era_events = this._timelineService.getEraEventsWithFilter(this.era.id, selected_filters)
+    } else {
+      this.era_events = this._timelineService.getEraEvents(this.era.id)
+    }
+  }
   ngOnDestroy(): void {
     
   }
